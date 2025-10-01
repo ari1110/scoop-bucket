@@ -1,0 +1,26 @@
+{
+    "version": "1.0.2-test",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ari1110/pass-cli/releases/download/v1.0.2-test/pass-cli_1.0.2-test_windows_x86_64.tar.gz",
+            "bin": [
+                "pass-cli.exe"
+            ],
+            "hash": "40369118177ccab44cba49fa73fb957a215818c20e57d28c1ad1b6fa257f2940"
+        },
+        "arm64": {
+            "url": "https://github.com/ari1110/pass-cli/releases/download/v1.0.2-test/pass-cli_1.0.2-test_windows_arm64.tar.gz",
+            "bin": [
+                "pass-cli.exe"
+            ],
+            "hash": "363356fc2f0aa7c4808d90edec0c3a5c75700ec97a7425a33dda18f518d7eb31"
+        }
+    },
+    "homepage": "https://github.com/ari1110/pass-cli",
+    "license": "MIT",
+    "description": "Secure, cross-platform CLI password and API key manager for developers",
+    "post_install": [
+        "Write-Host 'To get started with Pass-CLI:' -ForegroundColor Green",
+        "Write-Host '  pass-cli --vault $env:USERPROFILE\\.pass-cli.enc init' -ForegroundColor Cyan"
+    ]
+}
