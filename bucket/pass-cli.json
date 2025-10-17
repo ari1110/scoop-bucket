@@ -1,19 +1,19 @@
 {
-    "version": "0.0.0-workflow-test",
+    "version": "0.8.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ari1110/pass-cli/releases/download/v0.0.0-workflow-test/pass-cli_0.0.0-workflow-test_windows_x86_64.tar.gz",
+            "url": "https://github.com/ari1110/pass-cli/releases/download/v0.8.0/pass-cli_0.8.0_windows_x86_64.tar.gz",
             "bin": [
                 "pass-cli.exe"
             ],
-            "hash": "79c02d2f2576703e77d492f13c5e9f00bf76a9a66178b8c7e8816037577a17e2"
+            "hash": "e904ce2905ce5945adaa253deaa135a3eee625d1f3fc4d8abd7f345c6271b512"
         },
         "arm64": {
-            "url": "https://github.com/ari1110/pass-cli/releases/download/v0.0.0-workflow-test/pass-cli_0.0.0-workflow-test_windows_arm64.tar.gz",
+            "url": "https://github.com/ari1110/pass-cli/releases/download/v0.8.0/pass-cli_0.8.0_windows_arm64.tar.gz",
             "bin": [
                 "pass-cli.exe"
             ],
-            "hash": "ed39a53cf63fcceb6ea19da8af8a8460084362ffca1462625210d82739f18d5a"
+            "hash": "a69d1bd80bc653cc16fe3535f66a585344fdc67638a4624b806c9b27ed5a3c9e"
         }
     },
     "homepage": "https://github.com/ari1110/pass-cli",
