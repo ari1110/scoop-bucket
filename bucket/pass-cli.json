@@ -6,14 +6,14 @@
             "bin": [
                 "pass-cli.exe"
             ],
-            "hash": "02173db2d236ca10c3e54600f0b8fb0cfb59f9f01f84903b6abe7049912452b8"
+            "hash": "8589a86bac6ac16c0b2eff6ef2378f403e300c3e0ee0b6ed1d8aaabfbf881ca6"
         },
         "arm64": {
             "url": "https://github.com/ari1110/pass-cli/releases/download/v0.8.76/pass-cli_0.8.76_windows_arm64.tar.gz",
             "bin": [
                 "pass-cli.exe"
             ],
-            "hash": "1943421f986dbada074e0cd10b847760451af92abd8828209da5ba7b70143c05"
+            "hash": "ca5abb94b8a3ee6b4576aff79c4ebfaec0ccb296732ef40fa477107a149b8fdb"
         }
     },
     "homepage": "https://github.com/ari1110/pass-cli",
